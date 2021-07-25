@@ -1,0 +1,137 @@
+Circuit: * C:\Users\Zac\Documents\Uni\4th Year\ECEN405\DClassAmp\SpiceSims\FullBridge.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+Gmin = 107.374
+Gmin = 11.5292
+Gmin = 1.23794
+Gmin = 0.132923
+Gmin = 0.0142725
+Gmin = 0.0015325
+Gmin = 0.00016455
+Gmin = 1.76685e-005
+Gmin = 1.89714e-006
+vernier = 0.5
+vernier = 0.25
+Gmin = 8.09808e-007
+vernier = 0.125
+vernier = 0.166667
+vernier = 0.0833333
+Gmin = 7.07916e-007
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 5.44412e-007
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 4.67202e-007
+vernier = 0.0493827
+vernier = 0.0658435
+Gmin = 4.21785e-007
+vernier = 0.0877914
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 3.80979e-007
+vernier = 0.0780367
+vernier = 0.0390184
+vernier = 0.0195092
+vernier = 0.00975459
+vernier = 0.0048773
+Gmin = 3.5429e-007
+vernier = 0.00243865
+vernier = 0.00121932
+vernier = 0.000609662
+vernier = 0.000812882
+Gmin = 3.53876e-007
+vernier = 0.00108384
+Gmin = 3.53014e-007
+vernier = 0.00144512
+vernier = 0.00192683
+Gmin = 3.51572e-007
+vernier = 0.00256911
+vernier = 0.00342548
+Gmin = 3.49285e-007
+vernier = 0.0045673
+Gmin = 3.45716e-007
+vernier = 0.00608973
+vernier = 0.00811964
+Gmin = 3.39807e-007
+vernier = 0.0108262
+vernier = 0.0144349
+Gmin = 3.30597e-007
+vernier = 0.0192465
+Gmin = 3.16616e-007
+vernier = 0.025662
+vernier = 0.0342161
+vernier = 0.017108
+Gmin = 3.02108e-007
+vernier = 0.0228107
+vernier = 0.0304143
+Gmin = 2.86085e-007
+vernier = 0.0405523
+Gmin = 2.61904e-007
+vernier = 0.0540698
+vernier = 0.0270349
+vernier = 0.0360465
+Gmin = 2.46231e-007
+vernier = 0.048062
+vernier = 0.024031
+Gmin = 2.30551e-007
+vernier = 0.0320413
+vernier = 0.0427217
+Gmin = 2.12592e-007
+vernier = 0.0213609
+vernier = 0.0284812
+Gmin = 2.0122e-007
+vernier = 0.0379749
+Gmin = 1.85245e-007
+vernier = 0.0189874
+vernier = 0.0253166
+Gmin = 1.77518e-007
+vernier = 0.0337554
+vernier = 0.0450072
+Gmin = 1.63782e-007
+vernier = 0.0225036
+vernier = 0.0300048
+Gmin = 1.56301e-007
+vernier = 0.0400064
+vernier = 0.0200032
+vernier = 0.0266709
+Gmin = 1.49194e-007
+vernier = 0.0133355
+vernier = 0.00666773
+vernier = 0.00333386
+vernier = 0.00166693
+vernier = 0.000833466
+vernier = 0.000416733
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 7.31539 to 7.31539
+
+Date: Sun Jul 25 14:46:35 2021
+Total elapsed time: 29.018 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 103068
+traniter = 98392
+tranpoints = 30718
+accept = 23145
+rejected = 7574
+matrix size = 61
+fillins = 48
+solver = Normal
+Matrix Compiler1: 5.31 KB object code size  5.6/4.1/[1.8]
+Matrix Compiler2: off  [4.5]/6.6/14.0
+
