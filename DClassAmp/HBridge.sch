@@ -16,371 +16,507 @@ $EndDescr
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBC881
-P 7050 4300
-F 0 "Q?" H 7254 4346 50  0000 L CNN
-F 1 "IRF540N" H 7254 4255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7300 4225 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7050 4300 50  0001 L CNN
-	1    7050 4300
+P 2950 5100
+F 0 "Q?" H 3154 5146 50  0000 L CNN
+F 1 "IRF540N" H 3154 5055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3200 5025 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 2950 5100 50  0001 L CNN
+	1    2950 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBD808
-P 7050 3600
-F 0 "Q?" H 7254 3646 50  0000 L CNN
-F 1 "IRF540N" H 7254 3555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7300 3525 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7050 3600 50  0001 L CNN
-	1    7050 3600
+P 2950 4400
+F 0 "Q?" H 3154 4446 50  0000 L CNN
+F 1 "IRF540N" H 3154 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3200 4325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 2950 4400 50  0001 L CNN
+	1    2950 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBE58F
-P 8250 3600
-F 0 "Q?" H 8454 3646 50  0000 L CNN
-F 1 "IRF540N" H 8454 3555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8500 3525 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8250 3600 50  0001 L CNN
-	1    8250 3600
+P 4150 4400
+F 0 "Q?" H 4354 4446 50  0000 L CNN
+F 1 "IRF540N" H 4354 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4400 4325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4150 4400 50  0001 L CNN
+	1    4150 4400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBEE9D
-P 8250 4300
-F 0 "Q?" H 8454 4346 50  0000 L CNN
-F 1 "IRF540N" H 8454 4255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8500 4225 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8250 4300 50  0001 L CNN
-	1    8250 4300
+P 4150 5100
+F 0 "Q?" H 4354 5146 50  0000 L CNN
+F 1 "IRF540N" H 4354 5055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4400 5025 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4150 5100 50  0001 L CNN
+	1    4150 5100
 	-1   0    0    1   
 $EndComp
-$Comp
-L Driver_FET:HIP4081A U?
-U 1 1 60FBF9D7
-P 4250 3850
-F 0 "U?" H 3900 3100 50  0000 C CNN
-F 1 "HIP4081A" H 4000 3000 50  0000 C CNN
-F 2 "" H 4200 4000 50  0001 C CIN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/hip4/hip4080a.pdf" H 4200 3450 50  0001 C CNN
-	1    4250 3850
-	1    0    0    -1  
-$EndComp
-Text HLabel 8050 3950 0    50   Input ~ 0
+Text HLabel 3950 4750 0    50   Input ~ 0
 LoadA
-Text HLabel 7250 3950 2    50   Input ~ 0
+Text HLabel 3150 4750 2    50   Input ~ 0
 LoadB
-$Comp
-L power:+12V #PWR?
-U 1 1 60FC139D
-P 4750 2850
-F 0 "#PWR?" H 4750 2700 50  0001 C CNN
-F 1 "+12V" H 4765 3023 50  0000 C CNN
-F 2 "" H 4750 2850 50  0001 C CNN
-F 3 "" H 4750 2850 50  0001 C CNN
-	1    4750 2850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+24V #PWR?
 U 1 1 60FC188E
-P 7650 3150
-F 0 "#PWR?" H 7650 3000 50  0001 C CNN
-F 1 "+24V" H 7665 3323 50  0000 C CNN
-F 2 "" H 7650 3150 50  0001 C CNN
-F 3 "" H 7650 3150 50  0001 C CNN
-	1    7650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60FC202F
-P 3800 4850
-F 0 "#PWR?" H 3800 4600 50  0001 C CNN
-F 1 "GND" H 3805 4677 50  0000 C CNN
-F 2 "" H 3800 4850 50  0001 C CNN
-F 3 "" H 3800 4850 50  0001 C CNN
-	1    3800 4850
+P 3550 3950
+F 0 "#PWR?" H 3550 3800 50  0001 C CNN
+F 1 "+24V" H 3565 4123 50  0000 C CNN
+F 2 "" H 3550 3950 50  0001 C CNN
+F 3 "" H 3550 3950 50  0001 C CNN
+	1    3550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC31C8
-P 8600 3600
-F 0 "R?" V 8393 3600 50  0000 C CNN
-F 1 "R" V 8484 3600 50  0000 C CNN
-F 2 "" V 8530 3600 50  0001 C CNN
-F 3 "~" H 8600 3600 50  0001 C CNN
-	1    8600 3600
+P 4500 4400
+F 0 "R?" V 4293 4400 50  0000 C CNN
+F 1 "R" V 4384 4400 50  0000 C CNN
+F 2 "" V 4430 4400 50  0001 C CNN
+F 3 "~" H 4500 4400 50  0001 C CNN
+	1    4500 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC480A
-P 8600 4300
-F 0 "R?" V 8393 4300 50  0000 C CNN
-F 1 "R" V 8484 4300 50  0000 C CNN
-F 2 "" V 8530 4300 50  0001 C CNN
-F 3 "~" H 8600 4300 50  0001 C CNN
-	1    8600 4300
+P 4500 5100
+F 0 "R?" V 4293 5100 50  0000 C CNN
+F 1 "R" V 4384 5100 50  0000 C CNN
+F 2 "" V 4430 5100 50  0001 C CNN
+F 3 "~" H 4500 5100 50  0001 C CNN
+	1    4500 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC9A5B
-P 6700 3600
-F 0 "R?" V 6493 3600 50  0000 C CNN
-F 1 "R" V 6584 3600 50  0000 C CNN
-F 2 "" V 6630 3600 50  0001 C CNN
-F 3 "~" H 6700 3600 50  0001 C CNN
-	1    6700 3600
+P 2600 4400
+F 0 "R?" V 2393 4400 50  0000 C CNN
+F 1 "R" V 2484 4400 50  0000 C CNN
+F 2 "" V 2530 4400 50  0001 C CNN
+F 3 "~" H 2600 4400 50  0001 C CNN
+	1    2600 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC9A65
-P 6700 4300
-F 0 "R?" V 6493 4300 50  0000 C CNN
-F 1 "R" V 6584 4300 50  0000 C CNN
-F 2 "" V 6630 4300 50  0001 C CNN
-F 3 "~" H 6700 4300 50  0001 C CNN
-	1    6700 4300
+P 2600 5100
+F 0 "R?" V 2393 5100 50  0000 C CNN
+F 1 "R" V 2484 5100 50  0000 C CNN
+F 2 "" V 2530 5100 50  0001 C CNN
+F 3 "~" H 2600 5100 50  0001 C CNN
+	1    2600 5100
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 60FD0A8C
-P 5450 4200
-F 0 "C?" H 5565 4246 50  0000 L CNN
-F 1 "C" H 5565 4155 50  0000 L CNN
-F 2 "" H 5488 4050 50  0001 C CNN
-F 3 "~" H 5450 4200 50  0001 C CNN
-	1    5450 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 60FD4422
-P 5150 3100
-F 0 "D?" V 5196 3021 50  0000 R CNN
-F 1 "D" V 5105 3021 50  0000 R CNN
-F 2 "" H 5150 3100 50  0001 C CNN
-F 3 "~" H 5150 3100 50  0001 C CNN
-	1    5150 3100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	7150 4100 7150 3950
+	3050 4900 3050 4750
 Wire Wire Line
-	7250 3950 7150 3950
-Connection ~ 7150 3950
+	3150 4750 3050 4750
+Connection ~ 3050 4750
 Wire Wire Line
-	7150 3950 7150 3800
+	3050 4750 3050 4600
 Wire Wire Line
-	8150 4100 8150 3950
+	4050 4900 4050 4750
 Wire Wire Line
-	7150 3400 7150 3250
+	3050 4200 3050 4050
 Wire Wire Line
-	7150 3250 7650 3250
+	3050 4050 3550 4050
 Wire Wire Line
-	8150 3250 8150 3400
+	4050 4050 4050 4200
 Wire Wire Line
-	8050 3950 8150 3950
-Connection ~ 8150 3950
+	3950 4750 4050 4750
+Connection ~ 4050 4750
 Wire Wire Line
-	8150 3950 8150 3800
+	4050 4750 4050 4600
 Wire Wire Line
-	7650 3150 7650 3250
-Connection ~ 7650 3250
+	3550 3950 3550 4050
+Connection ~ 3550 4050
 Wire Wire Line
-	7650 3250 8150 3250
+	3550 4050 4050 4050
 $Comp
 L power:GND #PWR?
 U 1 1 60FEC535
-P 7700 4600
-F 0 "#PWR?" H 7700 4350 50  0001 C CNN
-F 1 "GND" H 7705 4427 50  0000 C CNN
-F 2 "" H 7700 4600 50  0001 C CNN
-F 3 "" H 7700 4600 50  0001 C CNN
-	1    7700 4600
+P 3600 5400
+F 0 "#PWR?" H 3600 5150 50  0001 C CNN
+F 1 "GND" H 3605 5227 50  0000 C CNN
+F 2 "" H 3600 5400 50  0001 C CNN
+F 3 "" H 3600 5400 50  0001 C CNN
+	1    3600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5300 4050 5400
+Wire Wire Line
+	4050 5400 3600 5400
+Wire Wire Line
+	3050 5300 3050 5400
+Wire Wire Line
+	3050 5400 3600 5400
+Connection ~ 3600 5400
+Text GLabel 2450 4400 0    50   Input ~ 0
+BHO
+Text GLabel 2450 5100 0    50   Input ~ 0
+BLO
+Text GLabel 4650 5100 2    50   Input ~ 0
+ALO
+Text GLabel 4650 4400 2    50   Input ~ 0
+AHO
+Text GLabel 2450 4750 0    50   Input ~ 0
+BVS
+Wire Wire Line
+	2450 4750 3050 4750
+Text GLabel 4650 4750 2    50   Input ~ 0
+AVS
+Wire Wire Line
+	4650 4750 4050 4750
+$Comp
+L Device:D D?
+U 1 1 61036CB6
+P 9500 2050
+F 0 "D?" V 9546 1971 50  0000 R CNN
+F 1 "D" V 9455 1971 50  0000 R CNN
+F 2 "" H 9500 2050 50  0001 C CNN
+F 3 "~" H 9500 2050 50  0001 C CNN
+	1    9500 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61037A42
+P 9500 2350
+F 0 "C?" H 9615 2396 50  0000 L CNN
+F 1 "C" H 9615 2305 50  0000 L CNN
+F 2 "" H 9538 2200 50  0001 C CNN
+F 3 "~" H 9500 2350 50  0001 C CNN
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR21834PBF:IR21834PBF IC?
+U 1 1 6103AF69
+P 7900 2200
+F 0 "IC?" H 8500 2465 50  0000 C CNN
+F 1 "IR21834PBF" H 8500 2374 50  0000 C CNN
+F 2 "DIP762W56P254L1930H533Q14N" H 8950 2300 50  0001 L CNN
+F 3 "http://www.infineon.com/dgdl/ir2181.pdf?fileId=5546d462533600a4015355c93cdd16ce" H 8950 2200 50  0001 L CNN
+F 4 "International Rectifier IR21834PBF, Dual MOSFET Power Driver 2.3A Half Bridge, 10  20 V, Non-Inverting, 14-Pin" H 8950 2100 50  0001 L CNN "Description"
+F 5 "5.33" H 8950 2000 50  0001 L CNN "Height"
+F 6 "Infineon" H 8950 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "IR21834PBF" H 8950 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IR21834PBF" H 8950 1700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IR21834PBF?qs=2r01AXMCG3O6piFMeUuvow%3D%3D" H 8950 1600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IR21834PBF" H 8950 1500 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ir21834pbf/infineon-technologies-ag" H 8950 1400 50  0001 L CNN "Arrow Price/Stock"
+	1    7900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61042B99
+P 7550 2500
+F 0 "R?" V 7343 2500 50  0000 C CNN
+F 1 "R" V 7434 2500 50  0000 C CNN
+F 2 "" V 7480 2500 50  0001 C CNN
+F 3 "~" H 7550 2500 50  0001 C CNN
+	1    7550 2500
+	0    1    1    0   
+$EndComp
+Text GLabel 7900 2700 0    50   Input ~ 0
+ALO
+Text GLabel 9100 2400 2    50   Input ~ 0
+AHO
+Wire Wire Line
+	7900 2300 7900 2200
+Wire Wire Line
+	7900 2400 7300 2400
+Wire Wire Line
+	7300 2400 7300 2500
+Wire Wire Line
+	7300 2500 7400 2500
+Wire Wire Line
+	7300 2500 7300 2600
+Wire Wire Line
+	7300 2600 7900 2600
+Connection ~ 7300 2500
+Wire Wire Line
+	7700 2500 7900 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6104A0D6
+P 7300 2700
+F 0 "#PWR?" H 7300 2450 50  0001 C CNN
+F 1 "GND" H 7305 2527 50  0000 C CNN
+F 2 "" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2700 7300 2600
+Connection ~ 7300 2600
+$Comp
+L power:+12V #PWR?
+U 1 1 6104E44A
+P 7900 2800
+F 0 "#PWR?" H 7900 2650 50  0001 C CNN
+F 1 "+12V" V 7915 2928 50  0000 L CNN
+F 2 "" H 7900 2800 50  0001 C CNN
+F 3 "" H 7900 2800 50  0001 C CNN
+	1    7900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6104EBB9
+P 9500 1900
+F 0 "#PWR?" H 9500 1750 50  0001 C CNN
+F 1 "+12V" H 9515 2073 50  0000 C CNN
+F 2 "" H 9500 1900 50  0001 C CNN
+F 3 "" H 9500 1900 50  0001 C CNN
+	1    9500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2500 9100 2500
+Wire Wire Line
+	9100 2300 9300 2300
+Wire Wire Line
+	9300 2300 9300 2200
+Wire Wire Line
+	9300 2200 9500 2200
+Connection ~ 9500 2200
+Text GLabel 9500 2500 2    50   Input ~ 0
+AVS
+Text HLabel 7850 2200 0    50   Input ~ 0
+PWM
+Text HLabel 7850 3700 0    50   Input ~ 0
+PWMInv
+Wire Wire Line
+	7850 2200 7900 2200
+Connection ~ 7900 2200
+$Comp
+L Device:D D?
+U 1 1 6106CC3A
+P 9500 3550
+F 0 "D?" V 9546 3471 50  0000 R CNN
+F 1 "D" V 9455 3471 50  0000 R CNN
+F 2 "" H 9500 3550 50  0001 C CNN
+F 3 "~" H 9500 3550 50  0001 C CNN
+	1    9500 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6106CC40
+P 9500 3850
+F 0 "C?" H 9615 3896 50  0000 L CNN
+F 1 "C" H 9615 3805 50  0000 L CNN
+F 2 "" H 9538 3700 50  0001 C CNN
+F 3 "~" H 9500 3850 50  0001 C CNN
+	1    9500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR21834PBF:IR21834PBF IC?
+U 1 1 6106CC4E
+P 7900 3700
+F 0 "IC?" H 8500 3965 50  0000 C CNN
+F 1 "IR21834PBF" H 8500 3874 50  0000 C CNN
+F 2 "DIP762W56P254L1930H533Q14N" H 8950 3800 50  0001 L CNN
+F 3 "http://www.infineon.com/dgdl/ir2181.pdf?fileId=5546d462533600a4015355c93cdd16ce" H 8950 3700 50  0001 L CNN
+F 4 "International Rectifier IR21834PBF, Dual MOSFET Power Driver 2.3A Half Bridge, 10  20 V, Non-Inverting, 14-Pin" H 8950 3600 50  0001 L CNN "Description"
+F 5 "5.33" H 8950 3500 50  0001 L CNN "Height"
+F 6 "Infineon" H 8950 3400 50  0001 L CNN "Manufacturer_Name"
+F 7 "IR21834PBF" H 8950 3300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IR21834PBF" H 8950 3200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IR21834PBF?qs=2r01AXMCG3O6piFMeUuvow%3D%3D" H 8950 3100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IR21834PBF" H 8950 3000 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ir21834pbf/infineon-technologies-ag" H 8950 2900 50  0001 L CNN "Arrow Price/Stock"
+	1    7900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6106CC54
+P 7550 4000
+F 0 "R?" V 7343 4000 50  0000 C CNN
+F 1 "R" V 7434 4000 50  0000 C CNN
+F 2 "" V 7480 4000 50  0001 C CNN
+F 3 "~" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 7900 4200 0    50   Input ~ 0
+BLO
+Text GLabel 9100 3900 2    50   Input ~ 0
+BHO
+Wire Wire Line
+	7900 3800 7900 3700
+Wire Wire Line
+	7900 3900 7300 3900
+Wire Wire Line
+	7300 3900 7300 4000
+Wire Wire Line
+	7300 4000 7400 4000
+Wire Wire Line
+	7300 4000 7300 4100
+Wire Wire Line
+	7300 4100 7900 4100
+Connection ~ 7300 4000
+Wire Wire Line
+	7700 4000 7900 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6106CC64
+P 7300 4200
+F 0 "#PWR?" H 7300 3950 50  0001 C CNN
+F 1 "GND" H 7305 4027 50  0000 C CNN
+F 2 "" H 7300 4200 50  0001 C CNN
+F 3 "" H 7300 4200 50  0001 C CNN
+	1    7300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4200 7300 4100
+Connection ~ 7300 4100
+$Comp
+L power:+12V #PWR?
+U 1 1 6106CC6C
+P 7900 4300
+F 0 "#PWR?" H 7900 4150 50  0001 C CNN
+F 1 "+12V" V 7915 4428 50  0000 L CNN
+F 2 "" H 7900 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+	1    7900 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6106CC72
+P 9500 3400
+F 0 "#PWR?" H 9500 3250 50  0001 C CNN
+F 1 "+12V" H 9515 3573 50  0000 C CNN
+F 2 "" H 9500 3400 50  0001 C CNN
+F 3 "" H 9500 3400 50  0001 C CNN
+	1    9500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4000 9100 4000
+Wire Wire Line
+	9100 3800 9300 3800
+Wire Wire Line
+	9300 3800 9300 3700
+Wire Wire Line
+	9300 3700 9500 3700
+Connection ~ 9500 3700
+Text GLabel 9500 4000 2    50   Input ~ 0
+BVS
+Wire Wire Line
+	7850 3700 7900 3700
+Connection ~ 7900 3700
+$Comp
+L Device:C C?
+U 1 1 610258D8
+P 3200 1700
+F 0 "C?" H 3315 1746 50  0000 L CNN
+F 1 "C" H 3315 1655 50  0000 L CNN
+F 2 "" H 3238 1550 50  0001 C CNN
+F 3 "~" H 3200 1700 50  0001 C CNN
+	1    3200 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60FEE894
-P 5150 3600
-F 0 "C?" H 5265 3646 50  0000 L CNN
-F 1 "C" H 5265 3555 50  0000 L CNN
-F 2 "" H 5188 3450 50  0001 C CNN
-F 3 "~" H 5150 3600 50  0001 C CNN
-	1    5150 3600
+U 1 1 610260F5
+P 3600 1700
+F 0 "C?" H 3715 1746 50  0000 L CNN
+F 1 "C" H 3715 1655 50  0000 L CNN
+F 2 "" H 3638 1550 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 60FEE89E
-P 5450 3200
-F 0 "D?" V 5496 3121 50  0000 R CNN
-F 1 "D" V 5405 3121 50  0000 R CNN
-F 2 "" H 5450 3200 50  0001 C CNN
-F 3 "~" H 5450 3200 50  0001 C CNN
-	1    5450 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60FF16A0
-P 3550 4600
-F 0 "R?" H 3620 4646 50  0000 L CNN
-F 1 "R" H 3620 4555 50  0000 L CNN
-F 2 "" V 3480 4600 50  0001 C CNN
-F 3 "~" H 3550 4600 50  0001 C CNN
-	1    3550 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60FF2616
-P 3200 4500
-F 0 "R?" H 3270 4546 50  0000 L CNN
-F 1 "R" H 3270 4455 50  0000 L CNN
-F 2 "" V 3130 4500 50  0001 C CNN
-F 3 "~" H 3200 4500 50  0001 C CNN
-	1    3200 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 4850 3800 4850
-Wire Wire Line
-	3550 4750 3550 4850
-Connection ~ 3550 4850
-Wire Wire Line
-	3750 4450 3550 4450
-Wire Wire Line
-	4250 4850 4250 4650
-Connection ~ 3800 4850
-Wire Wire Line
-	3800 4850 3550 4850
-Wire Wire Line
-	3200 4350 3750 4350
-Wire Wire Line
-	3200 4650 3200 4850
-Wire Wire Line
-	3200 4850 3550 4850
-Text HLabel 3400 3750 0    50   Input ~ 0
-PWM
-Text HLabel 3400 3950 0    50   Input ~ 0
-PWMInv
-Wire Wire Line
-	3400 3750 3750 3750
-Wire Wire Line
-	3400 3950 3750 3950
-Wire Wire Line
-	8150 4500 8150 4600
-Wire Wire Line
-	8150 4600 7700 4600
-Wire Wire Line
-	7150 4500 7150 4600
-Wire Wire Line
-	7150 4600 7700 4600
-Connection ~ 7700 4600
-Wire Wire Line
-	4750 3250 5150 3250
-Wire Wire Line
-	5150 3250 5150 3450
-Connection ~ 5150 3250
-Wire Wire Line
-	5150 3750 4750 3750
-Wire Wire Line
-	4750 4350 5450 4350
-Wire Wire Line
-	5450 4050 5450 3350
-Wire Wire Line
-	5150 2950 5150 2850
-Wire Wire Line
-	5150 2850 5450 2850
-Wire Wire Line
-	5450 2850 5450 3050
-Wire Wire Line
-	5150 2850 4750 2850
-Wire Wire Line
-	4150 2850 4150 3050
-Connection ~ 5150 2850
-Wire Wire Line
-	4350 3050 4350 2850
-Connection ~ 4350 2850
-Wire Wire Line
-	4350 2850 4150 2850
-Connection ~ 4750 2850
-Wire Wire Line
-	4750 2850 4350 2850
-Text GLabel 4750 3650 2    50   Input ~ 0
-BHO
-Text GLabel 4750 3950 2    50   Input ~ 0
-BLS
-Text GLabel 4750 3850 2    50   Input ~ 0
-BLO
-Wire Wire Line
-	4750 3350 5450 3350
-Connection ~ 5450 3350
-Text GLabel 4750 4150 2    50   Input ~ 0
-ALS
-Text GLabel 4750 4250 2    50   Input ~ 0
-ALO
-Text GLabel 4750 4450 2    50   Input ~ 0
-AHO
-Text GLabel 5450 4350 2    50   Input ~ 0
-AHS
-Text GLabel 5150 3750 2    50   Input ~ 0
-BHS
-Text GLabel 6550 3600 0    50   Input ~ 0
-BHO
-Text GLabel 6550 4600 0    50   Input ~ 0
-BLS
-Text GLabel 6550 4300 0    50   Input ~ 0
-BLO
-Text GLabel 8750 4600 2    50   Input ~ 0
-ALS
-Text GLabel 8750 4300 2    50   Input ~ 0
-ALO
-Text GLabel 8750 3600 2    50   Input ~ 0
-AHO
-Text GLabel 6550 3950 0    50   Input ~ 0
-BHS
-Wire Wire Line
-	6550 4600 7150 4600
-Connection ~ 7150 4600
-Wire Wire Line
-	6550 3950 7150 3950
-Wire Wire Line
-	8750 4600 8150 4600
-Connection ~ 8150 4600
-Text GLabel 8750 3950 2    50   Input ~ 0
-AHS
-Wire Wire Line
-	8750 3950 8150 3950
-$Comp
-L power:+12V #PWR?
-U 1 1 6107CD36
-P 3750 3650
-F 0 "#PWR?" H 3750 3500 50  0001 C CNN
-F 1 "+12V" V 3765 3778 50  0000 L CNN
-F 2 "" H 3750 3650 50  0001 C CNN
-F 3 "" H 3750 3650 50  0001 C CNN
-	1    3750 3650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR?
-U 1 1 6107D596
-P 3750 3850
-F 0 "#PWR?" H 3750 3700 50  0001 C CNN
-F 1 "+12V" V 3765 3978 50  0000 L CNN
-F 2 "" H 3750 3850 50  0001 C CNN
-F 3 "" H 3750 3850 50  0001 C CNN
-	1    3750 3850
-	0    -1   -1   0   
+U 1 1 61026927
+P 3200 1550
+F 0 "#PWR?" H 3200 1400 50  0001 C CNN
+F 1 "+12V" H 3215 1723 50  0000 C CNN
+F 2 "" H 3200 1550 50  0001 C CNN
+F 3 "" H 3200 1550 50  0001 C CNN
+	1    3200 1550
+	1    0    0    -1  
 $EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61026E10
+P 3600 1550
+F 0 "#PWR?" H 3600 1400 50  0001 C CNN
+F 1 "+12V" H 3615 1723 50  0000 C CNN
+F 2 "" H 3600 1550 50  0001 C CNN
+F 3 "" H 3600 1550 50  0001 C CNN
+	1    3600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61027335
+P 3200 1850
+F 0 "#PWR?" H 3200 1600 50  0001 C CNN
+F 1 "GND" H 3205 1677 50  0000 C CNN
+F 2 "" H 3200 1850 50  0001 C CNN
+F 3 "" H 3200 1850 50  0001 C CNN
+	1    3200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6102778B
+P 3600 1850
+F 0 "#PWR?" H 3600 1600 50  0001 C CNN
+F 1 "GND" H 3605 1677 50  0000 C CNN
+F 2 "" H 3600 1850 50  0001 C CNN
+F 3 "" H 3600 1850 50  0001 C CNN
+	1    3600 1850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1950 3550 5150 3550
+Wire Notes Line
+	5150 3550 5150 6100
+Wire Notes Line
+	5150 6100 1950 6100
+Wire Notes Line
+	1950 6100 1950 3550
+Text Notes 3250 5950 0    118  ~ 0
+H Bridge
+Wire Notes Line
+	10200 1550 10200 4900
+Wire Notes Line
+	10200 4900 6800 4900
+Wire Notes Line
+	6800 4900 6800 1550
+Wire Notes Line
+	6800 1550 10200 1550
+Text Notes 8000 4750 0    118  ~ 0
+Gate Drivers
+Text Notes 2950 2400 0    118  ~ 0
+Decoupling
+Wire Notes Line
+	2450 1100 4450 1100
+Wire Notes Line
+	4450 1100 4450 2550
+Wire Notes Line
+	4450 2550 2450 2550
+Wire Notes Line
+	2450 2550 2450 1150
 $EndSCHEMATC
