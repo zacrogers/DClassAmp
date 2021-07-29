@@ -1,4 +1,5 @@
 <!-- ![H Bridge Schematic](/images/HBridge_V2.png) -->
-<p>
+# Schematics
+
 <img src="/images/HBridge_V2.png">
-</p>
+
