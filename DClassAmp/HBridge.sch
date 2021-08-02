@@ -16,167 +16,157 @@ $EndDescr
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBC881
-P 3100 6250
-F 0 "Q?" H 3304 6296 50  0000 L CNN
-F 1 "IRF540N" H 3304 6205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3350 6175 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 3100 6250 50  0001 L CNN
-	1    3100 6250
+P 2750 6400
+F 0 "Q?" H 2954 6446 50  0000 L CNN
+F 1 "IRF540N" H 2954 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3000 6325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 2750 6400 50  0001 L CNN
+	1    2750 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBD808
-P 3100 5550
-F 0 "Q?" H 3304 5596 50  0000 L CNN
-F 1 "IRF540N" H 3304 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3350 5475 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 3100 5550 50  0001 L CNN
-	1    3100 5550
+P 2750 5450
+F 0 "Q?" H 2954 5496 50  0000 L CNN
+F 1 "IRF540N" H 2954 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3000 5375 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 2750 5450 50  0001 L CNN
+	1    2750 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBE58F
-P 4300 5550
-F 0 "Q?" H 4504 5596 50  0000 L CNN
-F 1 "IRF540N" H 4504 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4550 5475 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4300 5550 50  0001 L CNN
-	1    4300 5550
+P 4600 5450
+F 0 "Q?" H 4804 5496 50  0000 L CNN
+F 1 "IRF540N" H 4804 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4850 5375 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4600 5450 50  0001 L CNN
+	1    4600 5450
 	-1   0    0    1   
 $EndComp
 $Comp
 L Transistor_FET:IRF540N Q?
 U 1 1 60FBEE9D
-P 4300 6250
-F 0 "Q?" H 4504 6296 50  0000 L CNN
-F 1 "IRF540N" H 4504 6205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4550 6175 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4300 6250 50  0001 L CNN
-	1    4300 6250
+P 4600 6400
+F 0 "Q?" H 4804 6446 50  0000 L CNN
+F 1 "IRF540N" H 4804 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4850 6325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4600 6400 50  0001 L CNN
+	1    4600 6400
 	-1   0    0    1   
 $EndComp
-Text HLabel 4100 5900 0    50   Input ~ 0
+Text HLabel 4400 5800 0    50   Input ~ 0
 LoadA
-Text HLabel 3300 5900 2    50   Input ~ 0
+Text HLabel 2950 5800 2    50   Input ~ 0
 LoadB
 $Comp
 L power:+24V #PWR?
 U 1 1 60FC188E
-P 3700 5100
-F 0 "#PWR?" H 3700 4950 50  0001 C CNN
-F 1 "+24V" H 3715 5273 50  0000 C CNN
-F 2 "" H 3700 5100 50  0001 C CNN
-F 3 "" H 3700 5100 50  0001 C CNN
-	1    3700 5100
+P 3650 5000
+F 0 "#PWR?" H 3650 4850 50  0001 C CNN
+F 1 "+24V" H 3665 5173 50  0000 C CNN
+F 2 "" H 3650 5000 50  0001 C CNN
+F 3 "" H 3650 5000 50  0001 C CNN
+	1    3650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC31C8
-P 4650 5550
-F 0 "R?" V 4443 5550 50  0000 C CNN
-F 1 "R" V 4534 5550 50  0000 C CNN
-F 2 "" V 4580 5550 50  0001 C CNN
-F 3 "~" H 4650 5550 50  0001 C CNN
-	1    4650 5550
+P 4950 5450
+F 0 "R?" V 4743 5450 50  0000 C CNN
+F 1 "R" V 4834 5450 50  0000 C CNN
+F 2 "" V 4880 5450 50  0001 C CNN
+F 3 "~" H 4950 5450 50  0001 C CNN
+	1    4950 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC480A
-P 4650 6250
-F 0 "R?" V 4443 6250 50  0000 C CNN
-F 1 "R" V 4534 6250 50  0000 C CNN
-F 2 "" V 4580 6250 50  0001 C CNN
-F 3 "~" H 4650 6250 50  0001 C CNN
-	1    4650 6250
+P 4950 6400
+F 0 "R?" V 4743 6400 50  0000 C CNN
+F 1 "R" V 4834 6400 50  0000 C CNN
+F 2 "" V 4880 6400 50  0001 C CNN
+F 3 "~" H 4950 6400 50  0001 C CNN
+	1    4950 6400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC9A5B
-P 2750 5550
-F 0 "R?" V 2543 5550 50  0000 C CNN
-F 1 "R" V 2634 5550 50  0000 C CNN
-F 2 "" V 2680 5550 50  0001 C CNN
-F 3 "~" H 2750 5550 50  0001 C CNN
-	1    2750 5550
+P 2400 5450
+F 0 "R?" V 2193 5450 50  0000 C CNN
+F 1 "R" V 2284 5450 50  0000 C CNN
+F 2 "" V 2330 5450 50  0001 C CNN
+F 3 "~" H 2400 5450 50  0001 C CNN
+	1    2400 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60FC9A65
-P 2750 6250
-F 0 "R?" V 2543 6250 50  0000 C CNN
-F 1 "R" V 2634 6250 50  0000 C CNN
-F 2 "" V 2680 6250 50  0001 C CNN
-F 3 "~" H 2750 6250 50  0001 C CNN
-	1    2750 6250
+P 2400 6400
+F 0 "R?" V 2193 6400 50  0000 C CNN
+F 1 "R" V 2284 6400 50  0000 C CNN
+F 2 "" V 2330 6400 50  0001 C CNN
+F 3 "~" H 2400 6400 50  0001 C CNN
+	1    2400 6400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3200 6050 3200 5900
+	2850 6200 2850 6050
 Wire Wire Line
-	3300 5900 3200 5900
-Connection ~ 3200 5900
+	2950 5800 2850 5800
+Connection ~ 2850 5800
 Wire Wire Line
-	3200 5900 3200 5800
+	2850 5800 2850 5700
 Wire Wire Line
-	4200 6050 4200 5900
+	4500 6200 4500 6050
 Wire Wire Line
-	3200 5350 3200 5200
+	2850 5250 2850 5100
 Wire Wire Line
-	3200 5200 3700 5200
+	4500 5100 4500 5250
 Wire Wire Line
-	4200 5200 4200 5350
+	4400 5800 4500 5800
+Connection ~ 4500 5800
 Wire Wire Line
-	4100 5900 4200 5900
-Connection ~ 4200 5900
-Wire Wire Line
-	4200 5900 4200 5800
-Wire Wire Line
-	3700 5100 3700 5200
-Connection ~ 3700 5200
-Wire Wire Line
-	3700 5200 4200 5200
+	4500 5800 4500 5700
 $Comp
 L power:GND #PWR?
 U 1 1 60FEC535
-P 3750 6550
-F 0 "#PWR?" H 3750 6300 50  0001 C CNN
-F 1 "GND" H 3755 6377 50  0000 C CNN
-F 2 "" H 3750 6550 50  0001 C CNN
-F 3 "" H 3750 6550 50  0001 C CNN
-	1    3750 6550
+P 3650 6700
+F 0 "#PWR?" H 3650 6450 50  0001 C CNN
+F 1 "GND" H 3655 6527 50  0000 C CNN
+F 2 "" H 3650 6700 50  0001 C CNN
+F 3 "" H 3650 6700 50  0001 C CNN
+	1    3650 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6450 4200 6550
+	4500 6600 4500 6700
 Wire Wire Line
-	4200 6550 3750 6550
+	2850 6600 2850 6700
 Wire Wire Line
-	3200 6450 3200 6550
-Wire Wire Line
-	3200 6550 3750 6550
-Connection ~ 3750 6550
-Text GLabel 2600 5550 0    50   Input ~ 0
+	2850 6700 3400 6700
+Text GLabel 2250 5450 0    50   Input ~ 0
 BHO
-Text GLabel 2600 6250 0    50   Input ~ 0
+Text GLabel 2250 6400 0    50   Input ~ 0
 BLO
-Text GLabel 4800 6250 2    50   Input ~ 0
+Text GLabel 5100 6400 2    50   Input ~ 0
 ALO
-Text GLabel 4800 5550 2    50   Input ~ 0
+Text GLabel 5100 5450 2    50   Input ~ 0
 AHO
-Text GLabel 2600 5900 0    50   Input ~ 0
+Text GLabel 2250 5800 0    50   Input ~ 0
 BVS
 Wire Wire Line
-	2600 5900 3200 5900
-Text GLabel 4800 5900 2    50   Input ~ 0
+	2250 5800 2850 5800
+Text GLabel 5100 5800 2    50   Input ~ 0
 AVS
 Wire Wire Line
-	4800 5900 4200 5900
+	5100 5800 4500 5800
 $Comp
 L Device:D D?
 U 1 1 61036CB6
@@ -489,15 +479,7 @@ F 3 "" H 8750 5200 50  0001 C CNN
 	1    8750 5200
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	2100 4700 5300 4700
-Wire Notes Line
-	5300 4700 5300 7250
-Wire Notes Line
-	5300 7250 2100 7250
-Wire Notes Line
-	2100 7250 2100 4700
-Text Notes 3400 7100 0    118  ~ 0
+Text Notes 3300 7100 0    118  ~ 0
 H Bridge
 Wire Notes Line
 	5350 850  5350 4200
@@ -627,20 +609,20 @@ Wire Wire Line
 	3000 1400 3050 1400
 Wire Wire Line
 	3050 1400 3050 1500
-Text GLabel 4100 5800 0    50   Input ~ 0
+Text GLabel 4400 5700 0    50   Input ~ 0
 LoadA
-Text GLabel 3300 5800 2    50   Input ~ 0
+Text GLabel 2950 5700 2    50   Input ~ 0
 LoadB
 Wire Wire Line
-	4100 5800 4200 5800
-Connection ~ 4200 5800
+	4400 5700 4500 5700
+Connection ~ 4500 5700
 Wire Wire Line
-	4200 5800 4200 5750
+	4500 5700 4500 5650
 Wire Wire Line
-	3300 5800 3200 5800
-Connection ~ 3200 5800
+	2950 5700 2850 5700
+Connection ~ 2850 5700
 Wire Wire Line
-	3200 5800 3200 5750
+	2850 5700 2850 5650
 Text Notes 8050 3650 0    118  ~ 0
 Connectors
 $Comp
@@ -670,4 +652,86 @@ Wire Notes Line
 	7300 1100 7300 3850
 Wire Notes Line
 	7300 3850 9800 3850
+$Comp
+L Device:R R?
+U 1 1 61080E05
+P 3400 6200
+F 0 "R?" H 3470 6246 50  0000 L CNN
+F 1 "R" H 3470 6155 50  0000 L CNN
+F 2 "" V 3330 6200 50  0001 C CNN
+F 3 "~" H 3400 6200 50  0001 C CNN
+	1    3400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6108137A
+P 3400 6500
+F 0 "C?" H 3515 6546 50  0000 L CNN
+F 1 "C" H 3515 6455 50  0000 L CNN
+F 2 "" H 3438 6350 50  0001 C CNN
+F 3 "~" H 3400 6500 50  0001 C CNN
+	1    3400 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6050 2850 6050
+Wire Wire Line
+	3400 6700 3400 6650
+Connection ~ 3400 6700
+Wire Wire Line
+	2850 5800 2850 6050
+Connection ~ 2850 6050
+$Comp
+L Device:R R?
+U 1 1 61096FFB
+P 3900 6200
+F 0 "R?" H 3970 6246 50  0000 L CNN
+F 1 "R" H 3970 6155 50  0000 L CNN
+F 2 "" V 3830 6200 50  0001 C CNN
+F 3 "~" H 3900 6200 50  0001 C CNN
+	1    3900 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61097001
+P 3900 6500
+F 0 "C?" H 4015 6546 50  0000 L CNN
+F 1 "C" H 4015 6455 50  0000 L CNN
+F 2 "" H 3938 6350 50  0001 C CNN
+F 3 "~" H 3900 6500 50  0001 C CNN
+	1    3900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6050 4500 6050
+Wire Wire Line
+	4500 6050 4500 5800
+Connection ~ 4500 6050
+Wire Wire Line
+	3400 6700 3650 6700
+Wire Wire Line
+	3900 6650 3900 6700
+Connection ~ 3900 6700
+Wire Wire Line
+	3900 6700 4500 6700
+Wire Wire Line
+	2850 5100 3650 5100
+Wire Wire Line
+	3650 5000 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 4500 5100
+Connection ~ 3650 6700
+Wire Wire Line
+	3650 6700 3900 6700
+Wire Notes Line
+	1750 7250 5500 7250
+Wire Notes Line
+	5500 7250 5500 4600
+Wire Notes Line
+	1750 4600 5500 4600
+Wire Notes Line
+	1750 4600 1750 7250
 $EndSCHEMATC
