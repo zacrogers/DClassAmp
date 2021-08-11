@@ -1,0 +1,10 @@
+* \\courtenay.ecs.vuw.ac.nz\sukhadyla\GitHub\DClassAmp\opFilter\opFilter.asc
+C1 N002 0 187.5µF
+L1 N001 N002 1.51mH
+R1 0 N002 4
+V1 N001 0 SINE(2.5 2.5 500) AC 1
+V2 N003 N003 SINE(2.5 2.5 500)
+;tran 50ms
+.ac dec 20 1 10000
+.backanno
+.end
