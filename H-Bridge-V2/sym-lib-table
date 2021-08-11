@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name IR21834PBF)(type Legacy)(uri ${KIPRJMOD}/Libs/IR21834PBF.lib)(options "")(descr ""))
+  (lib (name LM5104M)(type Legacy)(uri ${KIPRJMOD}/Libs/LM5104M.lib)(options "")(descr ""))
+)
