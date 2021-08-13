@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C4AQLBW6130A3NK'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kemet", "C4AQLBW6130A3NK" (!) = "", "C4AQLBW6130A3NK", "Other", "80-C4AQLBW6130A3NK", "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQLBW6130A3NK?qs=r5DSvlrkXmLSXM5tpbL00Q%3D%3D", "", "", "Film Capacitors 500V 130uF LS=52.5mm 10% AEC-Q200", "https://content.kemet.com/datasheets/F3303_C4A.pdf", "50.3 mm"
+END_PART
+
+END.

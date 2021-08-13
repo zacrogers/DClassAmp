@@ -1,0 +1,9 @@
+Manufacturer=Kemet
+PartNumber=C4AQLBW6130A3NK
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2019-10-11 08:28:53
+Downloaded=2021-08-13 03:41:41
+3D=Y

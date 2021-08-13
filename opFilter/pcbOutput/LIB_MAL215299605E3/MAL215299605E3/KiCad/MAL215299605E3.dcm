@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAL215299605E3
+D Aluminum Electrolytic Capacitors SMD (Chip), High Voltage
+K
+F https://www.vishay.com/docs/28459/152cme.pdf
+$ENDCMP
+#
+#End Doc Library

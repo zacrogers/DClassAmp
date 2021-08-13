@@ -1,0 +1,18 @@
+.C4AQLBW6130A3NK :1 ;Film Capacitors 500V 130uF LS=52.5mm 10% AEC-Q200
+C4AQLBW6130A3NK
+*STM C
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN C4AQLBW6130A3NK
+~!Manufacturer_Name (Kemet)
+~!Manufacturer_Part_Number (C4AQLBW6130A3NK)
+~!Mouser Part Number (80-C4AQLBW6130A3NK)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/C4AQLBW6130A3NK?qs=r5DSvlrkXmLSXM5tpbL00Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://content.kemet.com/datasheets/F3303_C4A.pdf)
+~!Height (50.3mm)
+~!3D_Model (C4AQLBW6130A3NK)
+C4AQLBW6130A3NK
+1.1!U 2.1!U 3.1!U 4.1!U 

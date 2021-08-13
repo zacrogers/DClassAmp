@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAL215299605E3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MAL215299605E3" (!) = "", "CAPAE1660X1750N", "Capacitor Al Electrolytic", "594-MAL215299605E3", "https://www.mouser.co.uk/ProductDetail/Vishay/MAL215299605E3/?qs=xZ%2FP%252Ba9zWqY2dH6LjR2m3Q%3D%3D", "", "", "Aluminum Electrolytic Capacitors SMD (Chip), High Voltage", "https://www.vishay.com/docs/28459/152cme.pdf", "17.5 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.MAL215299605E3 :1 ;Aluminum Electrolytic Capacitors SMD (Chip), High Voltage
+CAPAE1660X1750N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN MAL215299605E3
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (MAL215299605E3)
+~!Mouser Part Number (594-MAL215299605E3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay/MAL215299605E3/?qs=xZ%2FP%252Ba9zWqY2dH6LjR2m3Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/docs/28459/152cme.pdf)
+~!Height (17.5mm)
+~!3D_Model (MAL215299605E3)
+MAL215299605E3
+1.1!U 2.1!U 

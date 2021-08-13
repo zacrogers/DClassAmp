@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=MAL215299605E3
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=2.1
+Released=2021-02-26 04:40:56
+Downloaded=2021-08-13 03:13:00
+3D=Y
